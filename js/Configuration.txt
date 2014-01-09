@@ -22,7 +22,7 @@ Calling ajaxloader
 Plugin Options
 
 	var loaderOptions={action:'show',loaderPosition:55,ajaxloaderImage:'js/loader/ajax-loader.gif'};
-	if ajaxloaderImage is not sufficient add  {loaderWidth: 24, loaderHeight: 24} to loaderOptions
+	if ajaxloaderImage width/height is not sufficient you can user {loaderWidth: 24, loaderHeight: 24} to loaderOptions
 	$('body').ajaxloader(loaderOptions);
 
 	for closing loader
